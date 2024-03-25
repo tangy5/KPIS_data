@@ -10,10 +10,10 @@ Image.MAX_IMAGE_PIXELS = None
 
 
 def json_to_contour():
-    json_file = '/home/yuchengt/Downloads/KPI/KIP_process/post/normal-20240304T204345Z-001/normal/out/outnormal mouse W12-M1576 L.czi - Scene #1.json'
-    output_dir = '/home/yuchengt/Downloads/KPI/KIP_process/post/normal-20240304T204345Z-001/normal/out'
-    name = 'normal mouse W12-M1576 L.czi - Scene #1.json'
-    imageshape = [75744,36173] #(y,x)
+    json_file = '/home/yucheng/yucheng/2024/resesarch/KPIS/KPIS_data_raw/process/DN11-356.czi.json'
+    output_dir = '/home/yucheng/yucheng/2024/resesarch/KPIS/KPIS_data_raw/process'
+    name = 'DN11-356.czi.json'
+    imageshape = [44412,40502] #(y,x)
 
     f = open(json_file)
     data = json.load(f)

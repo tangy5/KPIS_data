@@ -8,7 +8,7 @@ for (entry in project.getImageList()) {
     def annotations = hierarchy.getAnnotationObjects()
     def name = entry.getImageName()
 
-    def OUTPUT_DIR = '/home/yuchengt/Downloads/KPI/KIP_process/post/normal-20240304T204345Z-001/normal/out' 
+    def OUTPUT_DIR = '/home/yucheng/yucheng/2024/resesarch/KPIS/KPIS_data_raw/DN' 
     //def name = GeneralTools.getNameWithoutExtension(imageData.getServer().getMetadata().getName())
 //    def filePath = buildFilePath(OUTPUT_DIR, name.toString())
     def filePath = OUTPUT_DIR + entry.getImageName()
